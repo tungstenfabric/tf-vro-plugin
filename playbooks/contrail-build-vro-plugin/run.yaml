@@ -1,5 +1,5 @@
 - hosts: builder
-  name: Build and test Juniper/contrail-vro-plugin
+  name: Build and test tungstenfabric/tf-vro-plugin
   tasks:
     - name: install maven
       yum:

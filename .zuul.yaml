@@ -1,5 +1,5 @@
 - project:
-    name: Juniper/contrail-vro-plugin
+    name: tungstenfabric/tf-vro-plugin
     check:
       jobs:
         - contrail-build-vro-plugin
@@ -10,11 +10,11 @@
 - job:
     name: contrail-build-vro-plugin
     description: |
-      Job that builds Juniper/contrail-vro-plugin project.
+      Job that builds tungstenfabric/tf-vro-plugin project.
     voting: True
     parent: contrail-vnc-base2
     required-projects:
-      - Juniper/contrail-vro-plugin
+      - tungstenfabric/tf-vro-plugin
     run: playbooks/contrail-build-vro-plugin/run.yaml
     nodeset:
       nodes:
