@@ -21,7 +21,7 @@ repo: $(SB_ROOT)/repo
 
 init: repo
 	cd $(SB_ROOT)
-	./repo init -u https://github.com/Juniper/contrail-vnc
+	./repo init -u https://github.com/tungstenfabric/tf-vnc
 
 sync:
 	cd $(SB_ROOT)
